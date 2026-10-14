@@ -39,3 +39,23 @@ Agent Environments:
 ![Question 2 - image of search strategy](ai qn 2 - search strategy.jpeg)
 
 Backup: See images in the repository. 
+
+## Question Three
+using distance between towns as the path cost function, determine the optimal path 
+the trailer can take from Nairobi to Kisumu. Calculate the distance between towns 
+using this Google Maps search feature. 
+
+## Answer
+
+Path Cost Breakdown:
+Nairobi → Naivasha: 92.8 km
+Naivasha → Nakuru: 69.7 km
+Nakuru → Kericho: 107 km
+Kericho → Kisumu: 83.9 km
+
+Total Cost Calculation
+To find the optimal path cost for the trailer, we sum the distances of the nodes traversed from the root to the goal state:
+92.8 km + 69.7 km + 107 km + 83.9 km = 353.4 km
+
+Optimal Path: Nairobi → Naivasha → Nakuru → Kericho → Kisumu.
+Total Path Cost: 353.4 kilometers.
